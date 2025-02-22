@@ -17,7 +17,7 @@ describe("sum", () => {
 });
 
 describe("sum 2", () => {
-    test("sum of 2 + 2 must be 4", () => {
+    it("Should do sum of 2 + 2 must be 4", () => {
         const result = sum(2, 2);
 
         expect(result).toBe(4);
