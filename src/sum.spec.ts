@@ -1,4 +1,4 @@
-import { sum } from "./server";
+import { sum } from "./sum";
 
 // Criando um describe para um conjunto de testes
 describe("sum", () => {
